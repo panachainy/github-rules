@@ -10,6 +10,7 @@
         "~DEFAULT_BRANCH",
         "refs/heads/releases/*",
         "refs/heads/main",
+        "refs/heads/dev",
         "refs/heads/develop",
         "refs/heads/production",
         "refs/heads/pre-production"
