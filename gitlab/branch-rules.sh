@@ -39,6 +39,8 @@ projects=$(curl -s --header "PRIVATE-TOKEN: $TOKEN" \
   "$GITLAB_URL/api/v4/groups/$GROUP_ID/projects?per_page=100" \
   | jq -r '.[].id')
 
+echo "Projects: $projects"
+
 for project in $projects; do
   echo ""
   echo "[*] Updating project ID: $project"
