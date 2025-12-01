@@ -18,7 +18,7 @@ EOF
 
 PROTECT_DEV=$(cat <<EOF
 {
-  "name": "dev",
+  "name": "develop",
   "push_access_level": 0,
   "merge_access_level": 40
 }
