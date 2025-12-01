@@ -1,9 +1,5 @@
 #!/bin/bash
 
-TOKEN="YOUR_TOKEN"
-GROUP_ID="1234"
-GITLAB_URL="https://gitlab.com"   # Change if self-hosted
-
 echo "Configuration:"
 echo "  TOKEN: $TOKEN"
 echo "  GROUP_ID: $GROUP_ID"

@@ -1,4 +1,7 @@
-.PHONY: all
+ENV_FILE := .env
 
-all:
-	. .env && ./branch-rules.sh
+include $(ENV_FILE)
+export $(shell sed 's/=.*//' $(ENV_FILE))
+
+run:
+	@./branch-rules.sh
